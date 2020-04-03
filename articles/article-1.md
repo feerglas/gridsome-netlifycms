@@ -1,5 +1,5 @@
 ---
-title: Test Article 1 edited
+title: Test Article 1
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 image: 'https://source.unsplash.com/random/1'
 author: Yves Tscherry
