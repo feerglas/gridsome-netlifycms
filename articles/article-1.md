@@ -1,8 +1,7 @@
 ---
-title: Test Article 1
-image: https://source.unsplash.com/random/1
-abstract: |-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+title: Test Article 1 edited
+abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+image: 'https://source.unsplash.com/random/1'
 author: Yves Tscherry
 date: 2020-04-03T09:00:37.669Z
 ---
