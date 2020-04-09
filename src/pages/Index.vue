@@ -2,7 +2,7 @@
   <Layout>
     <div class="container">
       <h1>List articles</h1>
-      <div v-for="article in $page.articles.edges" :key="article.id" class="article d-flex">
+      <div v-for="article in $page.articles.edges" :key="article.id" class="article">
         <div class="article__img"
              :style="{ 'background-image': 'url(' + article.node.image + ')' }"></div>
         <div class="article__body">
@@ -31,7 +31,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "My blog"
+    title: "NetlifyCMS and Gridsome test"
   }
 };
 </script>
@@ -77,4 +77,12 @@ export default {
     height: 180px;
   }
 }
+@media screen and (min-width: 992px) {
+  .container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0px;
+  }
+}
+
 </style>
